@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="#{region.mainLanguageCode}"
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:c="http://xmlns.jcp.org/jsp/jstl/core"
+	xmlns:o="http://omnifaces.org/ui"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:of="http://omnifaces.org/functions"
+	xmlns:z="http://zeef.com/ui"
+	data-wf-site="5537fb1074dd45ad69815b51" 
+	data-wf-page="5537fb1074dd45ad69815b54">
+	<h:head>
+		<meta charset="utf-8">
+		<title>ZEEF Muse</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="generator" content="Webflow">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/webflow.css">
+		<link rel="stylesheet" type="text/css" href="css/hackathon123.webflow.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+		<script>
+		  WebFont.load({
+		    google: {
+		      families: ["Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic","Roboto Condensed:300,300italic,regular,italic,700,700italic"]
+		    }
+		  });
+		</script>
+		<script type="text/javascript" src="js/modernizr.js"></script>
+		<link rel="shortcut icon" type="image/x-icon" href="images/Copy%20of%20UI%20Elements-02.png">
+		<link rel="apple-touch-icon" href="images/Copy%20of%20UI%20Elements-02.png">
+		<style>
+		  .masonry .articlewrapper {
+		      margin-bottom: 20px;    
+		  }
+		</style>
+	</h:head>
+	<h:body>
+		<h:form>
+			<div class="primarynavsection">
+			  <div class="w-container primarynavcontainer">
+			    <div class="w-clearfix brandwrapper">
+			      <a class="w-nav-brand brandicon" href="http://zeef.com"><img class="brandiconimg" src="images/zeef-muse-onlylogo.png" alt="553907f0d493fd280898d765_zeef-muse-onlylogo.png"><img class="tagline" src="images/zeef-muse-onlytagline.png" alt="55390c15b42c93260884430b_zeef-muse-onlytagline.png">
+			      </a>
+			      <div class="w-form form">
+			        <form class="w-clearfix form-search" id="email-form" name="email-form" data-name="Email Form">
+			          <input class="w-input textfield-search-engine" id="name" type="text" placeholder="enter search keywords" name="name" data-name="Name">
+			          <input class="w-button search-button" type="submit" value="Search" data-wait="..." wait="...">
+			        </form>
+			        <div class="w-form-done succes-message">
+			          <p>Thank you! Your submission has been received!</p>
+			        </div>
+			        <div class="w-form-fail error-message">
+			          <p>Oops! Something went wrong while searching :(</p>
+			        </div>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+			<div class="w-nav secondarynav" data-collapse="none" data-animation="default" data-duration="400" data-contain="1">
+			  <div class="w-container secondarynavcontainer">
+			    <nav class="w-nav-menu secondarynavmenu" role="navigation">
+			      <a class="w-inline-block secondarynavlink highlight" href="http://zeef.com">
+			        <div class="secondarynavicon web"><img src="images/Zeef_icons-02.png" alt="5539072d9f3210df7933e6a5_Zeef_icons-02.png">
+			        </div>
+			        <div class="secondarynavlinktext">pop</div>
+			      </a>
+			      <a class="w-inline-block secondarynavlink highlight" href="http://zeef.com">
+			        <div class="secondarynavicon branding"><img src="images/Zeef_icons-05.png" alt="55390833d493fd280898d77d_Zeef_icons-05.png">
+			        </div>
+			        <div class="secondarynavlinktext">indie</div>
+			      </a>
+			      <a class="w-inline-block secondarynavlink highlight" href="http://zeef.com">
+			        <div class="secondarynavicon advertising"><img src="images/Zeef_icons-01.png" alt="553908a05c5204e17940ad15_Zeef_icons-01.png">
+			        </div>
+			        <div class="secondarynavlinktext">electronic</div>
+			      </a>
+			      <a class="w-inline-block secondarynavlink highlight" href="http://zeef.com">
+			        <div class="secondarynavicon photo"><img src="images/Zeef_icons-03.png" alt="5539094d9f3210df7933e71b_Zeef_icons-03.png">
+			        </div>
+			        <div class="secondarynavlinktext">country</div>
+			      </a>
+			      <a class="w-inline-block secondarynavlink highlight" href="http://zeef.com">
+			        <div class="secondarynavicon casestudies"><img src="images/Zeef_icons-04.png" alt="5539099cd493fd280898d7cc_Zeef_icons-04.png">
+			        </div>
+			        <div class="secondarynavlinktext">r&amp;b</div>
+			      </a>
+			      <a class="w-inline-block secondarynavlink highlight" href="http://zeef.com">
+			        <div class="secondarynavicon casestudies"><img src="images/Zeef_icons-09.png" alt="55392ce99f3210df7933efc9_Zeef_icons-09.png">
+			        </div>
+			        <div class="secondarynavlinktext">party</div>
+			      </a>
+			      <a class="w-inline-block secondarynavlink highlight" href="http://zeef.com">
+			        <div class="secondarynavicon casestudies"><img src="images/Zeef_icons-07.png" alt="55392ce9d493fd280898e11a_Zeef_icons-07.png">
+			        </div>
+			        <div class="secondarynavlinktext">jazz</div>
+			      </a>
+			      <a class="w-inline-block secondarynavlink highlight" href="http://zeef.com">
+			        <div class="secondarynavicon casestudies"><img src="images/Zeef_icons-08.png" alt="55392ce9b42c93260884487e_Zeef_icons-08.png">
+			        </div>
+			        <div class="secondarynavlinktext">rock</div>
+			      </a>
+			    </nav>
+			    <div class="w-nav-button">
+			      <div class="w-icon-nav-menu"></div>
+			    </div>
+			  </div>
+			</div>
+			<div class="w-section w-clearfix divider text">
+			  <h1><strong class="singer-text">Genres<br></strong></h1>
+			</div>
+			<div class="w-section maincontainer">
+			  <div class="w-row">
+			    <div class="w-col w-col-3">
+			      <a class="w-inline-block thumbwrapper" href="#" data-ix="new-interaction"><img class="thumb" src="images/U3oviu0E_400x400.jpeg" alt="5539180ed493fd280898dd73_U3oviu0E_400x400.jpeg">
+			      </a>
+			    </div>
+			    <div class="w-col w-col-3">
+			      <a class="w-inline-block thumbwrapper" href="#"><img class="thumb" src="images/Calvin-Harris-9.jpg" alt="553919fc5c5204e17940b17e_Calvin-Harris-9.jpg">
+			      </a>
+			    </div>
+			    <div class="w-col w-col-3">
+			      <a class="w-inline-block thumbwrapper" href="#"><img class="thumb" src="images/taylor-swift-2014-sarah-barlow-billboard-650.jpg" alt="5539180f5c5204e17940b125_taylor-swift-2014-sarah-barlow-billboard-650.jpg">
+			      </a>
+			    </div>
+			    <div class="w-col w-col-3">
+			      <a class="w-inline-block thumbwrapper" href="#"><img class="thumb" src="images/nick-jonas-2014-young-hollywood-awards-billboard-650.jpg" alt="55391810d493fd280898dd75_nick-jonas-2014-young-hollywood-awards-billboard-650.jpg">
+			      </a>
+			    </div>
+			  </div>
+			  <div class="w-row">
+			    <div class="w-col w-col-3">
+			      <a class="w-inline-block thumbwrapper" href="#"><img class="thumb" src="images/ba57d0db68e7a5af235b0e7eb91a17a1dda11424.jpg" alt="55391810d493fd280898dd76_ba57d0db68e7a5af235b0e7eb91a17a1dda11424.jpg">
+			      </a>
+			    </div>
+			    <div class="w-col w-col-3">
+			      <a class="w-inline-block thumbwrapper" href="#"><img class="thumb" src="images/Ariana-Grande.jpg" alt="553918105c5204e17940b126_Ariana-Grande.jpg">
+			      </a>
+			    </div>
+			    <div class="w-col w-col-3">
+			      <a class="w-inline-block thumbwrapper" href="#"><img class="thumb" src="images/640_meghan_trainor_cosmopol.jpg" alt="553918105c5204e17940b127_640_meghan_trainor_cosmopol.jpg">
+			      </a>
+			    </div>
+			    <div class="w-col w-col-3">
+			      <a class="w-inline-block thumbwrapper" href="#"><img class="thumb" src="images/aldeanpresale_fullsize_story1.jpg" alt="55391810d493fd280898dd77_aldeanpresale_fullsize_story1.jpg">
+			      </a>
+			    </div>
+			  </div>
+			  <div class="masonry" id="container"></div>
+			</div>
+			<div class="w-section w-clearfix divider text">
+			  <h1><strong class="singer-text">Artists<br></strong></h1>
+			</div>
+			<div class="w-section maincontainer">
+			  <div class="masonry" id="container">
+			    <div class="w-row">
+			      <div class="w-col w-col-3">
+			        <a class="w-inline-block thumbwrapper" href="#"><img class="thumb" src="images/Genres-01.jpg" alt="553927a09f3210df7933ef35_Genres-01.jpg">
+			        </a>
+			      </div>
+			      <div class="w-col w-col-3">
+			        <a class="w-inline-block thumbwrapper" href="#"><img class="thumb" src="images/Genres-07.jpg" alt="553927a0b42c9326088447ad_Genres-07.jpg">
+			        </a>
+			      </div>
+			      <div class="w-col w-col-3">
+			        <a class="w-inline-block thumbwrapper" href="http://zeef.com"><img class="thumb" src="images/Genres-03.jpg" alt="553927a19f3210df7933ef37_Genres-03.jpg">
+			        </a>
+			      </div>
+			      <div class="w-col w-col-3">
+			        <a class="w-inline-block thumbwrapper" href="#"><img class="thumb" src="images/Genres-08.jpg" alt="553927a2b42c9326088447ae_Genres-08.jpg">
+			        </a>
+			      </div>
+			    </div>
+			    <div class="w-row">
+			      <div class="w-col w-col-3">
+			        <a class="w-inline-block thumbwrapper" href="#"><img class="thumb" src="images/Genres-02.jpg" alt="553927a3b42c9326088447af_Genres-02.jpg">
+			        </a>
+			      </div>
+			      <div class="w-col w-col-3">
+			        <a class="w-inline-block thumbwrapper" href="#"><img class="thumb" src="images/Genres-06.jpg" alt="553927a39f3210df7933ef38_Genres-06.jpg">
+			        </a>
+			      </div>
+			      <div class="w-col w-col-3">
+			        <a class="w-inline-block thumbwrapper" href="#"><img class="thumb" src="images/Genres-05.jpg" alt="553927a39f3210df7933ef39_Genres-05.jpg">
+			        </a>
+			      </div>
+			      <div class="w-col w-col-3">
+			        <a class="w-inline-block thumbwrapper" href="#"><img class="thumb" src="images/Genres-04.jpg" alt="553927a4b42c9326088447b0_Genres-04.jpg">
+			        </a>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+			<div class="w-section footer">
+			  <div class="w-container footercontainer">
+			    <ul class="w-list-unstyled w-clearfix footerul">
+			      <li class="footerli">
+			        <div class="footerlink nolink">© 2015 ZEEF</div>
+			      </li>
+			      <li class="footerli"><a class="footerlink" href="https://zeef.com/">Home</a>
+			      </li>
+			      <li class="footerli"><a class="footerlink" href="https://zeef.com/about">About</a>
+			      </li>
+			      <li class="footerli"><a class="footerlink" href="mailto:info@zeef.com">Contact</a>
+			      </li>
+			    </ul>
+			  </div>
+			</div>
+			<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+			<script type="text/javascript" src="js/webflow.js"></script>
+			<!--[if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
+			<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/masonry/3.1.5/masonry.pkgd.min.js"></script>
+			<script>
+			 $(window).load(function(){
+			   $('#container').masonry({
+			     // options...
+			     itemSelector: '.articlewrapper',
+			     columnWidth: 270,
+			     gutter: 20,
+			     isFitWidth: true,
+			   });
+			 });
+			</script>
+		</h:form>
+	</h:body>
+</html>
